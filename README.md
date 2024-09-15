@@ -36,24 +36,21 @@ The dataset should be a CSV file with the following columns:
 Usage
 
 1.	Prepare the Dataset: Ensure your dataset is in a CSV file with columns Paragraph and Summary.
-2.	Training the Model:
-   
-   o	The code will load and preprocess the dataset.
-   
-   o	It will then fine-tune the DistilBART model with the provided dataset.
-
-3.	Generating Summaries:
-   
-o	You can generate summaries for any input text using the trained model.
+2.	Training the Model: The code will load and preprocess the dataset.It will then fine-tune the DistilBART model with the provided dataset.
+3.	Generating Summaries: You can generate summaries for any input text using the trained model.
 
 
 Training Parameters
 •	Epochs: 50
+
 •	Batch Size: 8
+
 •	Learning Rate: 2e-5
 
 
 Acknowledgements
+
 •	Hugging Face Transformers library for providing the BART model and utilities.
+
 •	PyTorch for the deep learning framework.
 
