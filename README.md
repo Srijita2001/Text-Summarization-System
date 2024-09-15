@@ -38,9 +38,9 @@ Usage
 1.	Prepare the Dataset: Ensure your dataset is in a CSV file with columns Paragraph and Summary.
 2.	Training the Model:
    
-o	The code will load and preprocess the dataset.
-
-o	It will then fine-tune the DistilBART model with the provided dataset.
+   o	The code will load and preprocess the dataset.
+   
+   o	It will then fine-tune the DistilBART model with the provided dataset.
 
 3.	Generating Summaries:
    
